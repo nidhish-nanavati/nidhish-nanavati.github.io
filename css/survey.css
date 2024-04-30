@@ -1,0 +1,110 @@
+body {
+    background-color: rgba(51, 80, 2, 0.311);
+}
+
+.logo-img{
+    height: 100px;
+}
+
+.header{
+    border: 5px solid #006633;
+    box-shadow: 5px 10px;
+    margin : 10px;
+    height : 120px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header-menu{
+    float: left;
+    text-decoration: none;
+    color:purple;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+
+.header-menu:hover{
+    opacity: 0.5;
+}
+
+.site-logo{
+    float : left;
+    height : 110px;
+}
+
+.form-control::placeholder{
+    color: #ffcc33;
+}
+
+input[type=date]{
+    color : #ffcc33;
+}
+
+.form-title{
+    color : rgb(155, 155, 30);
+    font-weight: bold;
+}   
+
+.label-container{
+    cursor: pointer;
+}   
+
+form{
+    margin: auto;
+    width: 50%;
+    border: 3px solid #ffcc33;
+    padding : 10px;
+    margin-top : 30px;
+    color : #006633;
+
+}
+
+.required{
+    color : red
+}
+
+label{
+    font-weight: bold;
+}
+
+.graduation-text{
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.checkbox-desc,.radio-desc,.select-text,.comment-container{
+    font-weight: bold;
+}
+
+.checkbox-container:hover{
+    color: rgb(237, 204, 19);
+    z-index:1;
+}
+
+.radio-container:hover{
+    color: #ffcc33;
+    z-index:1;
+}
+
+.form-control{
+    margin-top:5px;
+}
+
+#gradmonth{
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.footer{
+    padding-left: 50%;  
+    height: 40px;
+    margin : 10px;
+}
