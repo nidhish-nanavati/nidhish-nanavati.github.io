@@ -1,0 +1,86 @@
+body {
+    background-color: rgba(51, 80, 2, 0.311);
+}
+h1{
+    color: #006633;
+}
+.header{
+    border : 5px solid #006633;
+    height : 110px;
+    box-shadow: 5px 10px;
+    margin : 10px;
+}
+
+
+.header-list{
+    margin : 0;
+    padding : 0;
+    overflow: hidden;
+}
+
+.header-menu{
+    float: left;
+    margin-top : 50px;
+    margin-left : 50px;
+    text-decoration: none;
+    color:purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.header-menu:hover{
+    opacity: 0.5;
+}
+
+.list-container{
+    list-style-type: none;
+    margin-left : 100px;
+}
+
+ul{
+ list-style-type: none;
+}
+
+.logo-img{
+    height: 100px;
+}
+
+.welcome-desc{
+    text-indent: justify;
+}
+
+.prereq-container{
+    margin: 10px;
+}
+
+
+.degree-label{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding-bottom : 5px;
+}
+
+.site-logo{
+    float : left;
+    height : 100px;
+}
+
+.prereq-label{
+    font-family: 'Courier New', Courier, monospace
+}
+
+.main-content{
+    align-items: center;
+}
+
+.welcome-content{
+    text-align: justify;
+}
+
+.footer{
+    padding-left: 50%;
+    height: 40px;
+}
